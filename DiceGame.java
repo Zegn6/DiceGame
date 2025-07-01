@@ -15,11 +15,11 @@ public class DiceGame{
         System.out.println("Dice 1: " + dice1);
         System.out.println("Dice 2: " + dice2);
         System.out.println("Total value: " + goke);
+
 if(goke >7){
     System.out.println(name + " won!");
 }else{
     System.out.println(name + " lost.");
 }
-
     }
 }
