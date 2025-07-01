@@ -1,7 +1,8 @@
 
 import java.util.Random;
 import java.util.Scanner;
-public class DiceGame {
+
+public class DiceGame{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
@@ -16,10 +17,11 @@ public class DiceGame {
         System.out.println("Die 1: " + die1);
         System.out.println("Die 2: " + die2);
         System.out.println("Total value: " + goke);
-        if(goke >7){
-    System.out.println("You won!");
+if (goke >7){
+    System.out.println(name + " won!");
 }else{
-    System.out.println("You lost.");
+    System.out.println(name + " lost.");
 }
+     
     }
 }
