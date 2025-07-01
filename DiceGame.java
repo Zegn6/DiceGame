@@ -1,6 +1,7 @@
 
 import java.util.Random;
 import java.util.Scanner;
+
 public class DiceGame{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
@@ -21,6 +22,6 @@ if (goke >7){
 }else{
     System.out.println(name + " lost.");
 }
-        
+     
     }
 }
